@@ -73,7 +73,8 @@ class _HomePageState extends State<HomePage> {
             ),
             SizedBox(height: 16),
             Expanded(
-        
+              child: GridView.builder(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
                   mainAxisSpacing: 16,
                   crossAxisSpacing: 16,

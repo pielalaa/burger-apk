@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'beranda.dart';
 import 'keranjang.dart';
 import 'checkout.dart';
+import 'add_data.dart';
 
 
 void main() {
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => HomePage(),
         '/cart': (context) => CartPage(),
         '/checkout': (context) => CheckoutPage(),
+         '/adddata': (context) => FormPage(),
 
       },
     );

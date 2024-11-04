@@ -44,7 +44,8 @@ class CheckoutPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             ElevatedButton.icon(
-              onPressed: () { // buata nambah produk baru
+              onPressed: () {
+                Navigator.pushNamed(context, '/adddata'); 
               },
               icon: Icon(Icons.add),
               label: Text("Add Data"),
